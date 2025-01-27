@@ -62,8 +62,6 @@ For example:
 
 By way of illustration:
 
-![Image of Axate Page Notice](../.assets/images/axate-page-notice.png)
-
 <img width="831" alt="Screenshot 2025-01-23 at 17 38 52" src="https://github.com/user-attachments/assets/fda58cb9-0942-42f1-961b-ab18ab4d08c8" />
 
 ```
