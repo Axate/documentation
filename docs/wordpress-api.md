@@ -1,6 +1,6 @@
 ## Wordpress API Integration
 
-Editing the functions.php file
+Editing the functions.php file to display the wallet inside the <head>
 
 ```php
 
