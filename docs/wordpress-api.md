@@ -1,5 +1,32 @@
 ## Wordpress API Integration
 
+Editing the functions.php file
+
+```php
+
+function add_content_after($content) {
+ if ( has_tag('premium') ) { 
+	 $before_content = '<div class="premium">';
+      $after_content = '</div><div class="axate-notice"></div>';
+      $fullcontent = $before_content . $content . $after_content;
+ } else {
+	 $fullcontent = $content;
+ }
+       return $fullcontent;
+
+}
+add_filter('the_content', 'add_content_after');
+
+
+function add_axate() {
+    ?>
+ <script async src="https://wallet.axate.io/bundle.js"></script><div id="axate-wallet" data-selector-premium-content=".premium" data-selector-article-content=".article" data-selector-in-page-notice=".axate-notice"></div>
+    <?php
+}
+add_action('wp_head', 'add_axate');
+
+```
+
 Current Wordpress versions come with a REST API enabled by default, and can be consumed easily by any developer application, such as Axate.
 
 Let’s take for example this article,
