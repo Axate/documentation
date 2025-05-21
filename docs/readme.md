@@ -70,6 +70,13 @@ data-selector-banner-contribution=".AxateContributionBanner">
 <div class="AxateContributionBanner"></div>
 ```
 
+In wordpress this would be as simple as adding a tag inside the Post Editor:
+
+<img width="293" alt="Screenshot 2025-05-21 at 09 34 39" src="https://github.com/user-attachments/assets/fd280937-516d-4fb4-adba-46f6d2539dd8" />
+<img width="293" alt="Screenshot 2025-05-21 at 09 34 56" src="https://github.com/user-attachments/assets/a266b92c-9076-4de5-9a8a-911bd52dc421" />
+<img width="298" alt="Screenshot 2025-05-21 at 09 34 50" src="https://github.com/user-attachments/assets/048959e7-cdcd-43de-8ee4-ccc410f50dda" />
+
+
 
 ## Extra Configuration Parameters
 
