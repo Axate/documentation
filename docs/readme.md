@@ -97,6 +97,22 @@ All these can be added to wallet, to enable, or disable axate functionalities pe
 
 - `disable-hide` is used to disable the Axate hiding functionality, so you can rely only on your own paywalls. The show will still happen via axate, such is appending display: inherit elements to the premium selector, select content.
 
+### Premium content height
+
+```html
+<!-- Example -->
+<div class="article premium" data-premium-height="750">
+  …
+</div>
+```
+
+**To set a custom height:**
+
+1. Add `data-premium-height="N"` (pixels) to the premium article container.
+2. The widget reads this value when collapsing premium content and sets the standfirst’s `max-height` to match.
+3. Result: publishers control how much of the article appears in the standfirst preview before the pay/sign-in prompt.
+
+
 ### Next Steps
 
 2. [Providing an API for Content Retrieval](./content-api.md)
